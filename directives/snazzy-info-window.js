@@ -127,7 +127,7 @@ var AgmSnazzyInfoWindow = (function () {
                     lng: _this.longitude
                 };
             }
-            _this._nativeSnazzyInfoWindow = new elems[0]default.(options);
+            _this._nativeSnazzyInfoWindow = new elems[0].default(options);
         });
         this._snazzyInfoWindowInitialized.then(function () {
             if (_this.isOpen) {
